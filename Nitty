@@ -167,4 +167,3 @@ ESP:AddObjectListener(Workspace.TrapperFramework["Poters Drive"], {
     IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
 })
 ESP.whatever = true
-end
