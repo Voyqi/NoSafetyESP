@@ -160,7 +160,7 @@ ESP:AddObjectListener(Workspace.TrapperFramework["Longwood Backstreets"], {
 })
 ESP.whatever = true
 
-ESP:AddObjectListener(Workspace.TrapperFramework["Poters Drive"], {
+ESP:AddObjectListener(Workspace.TrapperFramework["Potters Drive"], {
     Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
     CustomName = "Nitty", -- Name you want to be displayed
     Color = Color3.fromRGB(92, 118, 150), -- Color
