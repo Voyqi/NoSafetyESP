@@ -1,169 +1,309 @@
     -- loadstring
-local ESP = loadstring(game:HttpGet("https://kiriot22.com/releases/ESP.lua"))()
+    local ESP = loadstring(game:HttpGet("https://kiriot22.com/releases/ESP.lua"))()
 
--- config
-ESP.Players = false
-ESP.Boxes = false
-ESP.Names = true
-ESP:Toggle(true)
+    -- config
+    ESP.Players = false
+    ESP.Boxes = false
+    ESP.Names = true
+    ESP:Toggle(true)
+    
+    -- object
+    ESP:AddObjectListener(Workspace.TrapperFramework["Temple Estate"], {
+        Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
+        CustomName = "Nitty", -- Name you want to be displayed
+        Color = Color3.fromRGB(92, 118, 150), -- Color
+        IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
+    })
+    ESP.whatever = true
+    
+    ESP:AddObjectListener(Workspace.TrapperFramework["Graveside Estate"], {
+        Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
+        CustomName = "Nitty", -- Name you want to be displayed
+        Color = Color3.fromRGB(92, 118, 150), -- Color
+        IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
+    })
+    ESP.whatever = true
+    
+    ESP:AddObjectListener(Workspace.TrapperFramework["Brickside Park"], {
+        Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
+        CustomName = "Nitty", -- Name you want to be displayed
+        Color = Color3.fromRGB(92, 118, 150), -- Color
+        IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
+    })
+    ESP.whatever = true
+    
+    ESP:AddObjectListener(Workspace.TrapperFramework["Brickham Estate"], {
+        Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
+        CustomName = "Nitty", -- Name you want to be displayed
+        Color = Color3.fromRGB(92, 118, 150), -- Color
+        IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
+    })
+    ESP.whatever = true
+    
+    ESP:AddObjectListener(Workspace.TrapperFramework["Hillside Road"], {
+        Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
+        CustomName = "Nitty", -- Name you want to be displayed
+        Color = Color3.fromRGB(92, 118, 150), -- Color
+        IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
+    })
+    ESP.whatever = true
+    
+    ESP:AddObjectListener(Workspace.TrapperFramework["Juggin Alleys"], {
+        Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
+        CustomName = "Nitty", -- Name you want to be displayed
+        Color = Color3.fromRGB(92, 118, 150), -- Color
+        IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
+    })
+    ESP.whatever = true
+    
+    ESP:AddObjectListener(Workspace.TrapperFramework["Rosebury Square"], {
+        Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
+        CustomName = "Nitty", -- Name you want to be displayed
+        Color = Color3.fromRGB(92, 118, 150), -- Color
+        IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
+    })
+    ESP.whatever = true
+    
+    ESP:AddObjectListener(Workspace.TrapperFramework["Juggin Road"], {
+        Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
+        CustomName = "Nitty", -- Name you want to be displayed
+        Color = Color3.fromRGB(92, 118, 150), -- Color
+        IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
+    })
+    ESP.whatever = true
+    
+    ESP:AddObjectListener(Workspace.TrapperFramework["Grow House"], {
+        Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
+        CustomName = "Nitty", -- Name you want to be displayed
+        Color = Color3.fromRGB(92, 118, 150), -- Color
+        IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
+    })
+    ESP.whatever = true
+    
+    ESP:AddObjectListener(Workspace.TrapperFramework["Shelldale Drive"], {
+        Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
+        CustomName = "Nitty", -- Name you want to be displayed
+        Color = Color3.fromRGB(92, 118, 150), -- Color
+        IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
+    })
+    ESP.whatever = true
+    
+    ESP:AddObjectListener(Workspace.TrapperFramework["Crasher Lane"], {
+        Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
+        CustomName = "Nitty", -- Name you want to be displayed
+        Color = Color3.fromRGB(92, 118, 150), -- Color
+        IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
+    })
+    ESP.whatever = true
+    
+    ESP:AddObjectListener(Workspace.TrapperFramework["Longwood Underpass"], {
+        Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
+        CustomName = "Nitty", -- Name you want to be displayed
+        Color = Color3.fromRGB(92, 118, 150), -- Color
+        IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
+    })
+    ESP.whatever = true
+    
+    ESP:AddObjectListener(Workspace.TrapperFramework["the Grow House"], {
+        Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
+        CustomName = "Nitty", -- Name you want to be displayed
+        Color = Color3.fromRGB(92, 118, 150), -- Color
+        IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
+    })
+    ESP.whatever = true
+    
+    ESP:AddObjectListener(Workspace.TrapperFramework["the Cemetary"], {
+        Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
+        CustomName = "Nitty", -- Name you want to be displayed
+        Color = Color3.fromRGB(92, 118, 150), -- Color
+        IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
+    })
+    ESP.whatever = true
+    
+    ESP:AddObjectListener(Workspace.TrapperFramework["Longwood Road"], {
+        Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
+        CustomName = "Nitty", -- Name you want to be displayed
+        Color = Color3.fromRGB(92, 118, 150), -- Color
+        IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
+    })
+    ESP.whatever = true
+    
+    ESP:AddObjectListener(Workspace.TrapperFramework["Brickston Station"], {
+        Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
+        CustomName = "Nitty", -- Name you want to be displayed
+        Color = Color3.fromRGB(92, 118, 150), -- Color
+        IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
+    })
+    ESP.whatever = true
+    
+    ESP:AddObjectListener(Workspace.TrapperFramework["Crescent Way"], {
+        Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
+        CustomName = "Nitty", -- Name you want to be displayed
+        Color = Color3.fromRGB(92, 118, 150), -- Color
+        IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
+    })
+    ESP.whatever = true
+    
+    ESP:AddObjectListener(Workspace.TrapperFramework["Farmbrick Parking Lot"], {
+        Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
+        CustomName = "Nitty", -- Name you want to be displayed
+        Color = Color3.fromRGB(92, 118, 150), -- Color
+        IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
+    })
+    ESP.whatever = true
+    
+    ESP:AddObjectListener(Workspace.TrapperFramework["Longwood Backstreets"], {
+        Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
+        CustomName = "Nitty", -- Name you want to be displayed
+        Color = Color3.fromRGB(92, 118, 150), -- Color
+        IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
+    })
+    ESP.whatever = true
+    
+    ESP:AddObjectListener(Workspace.TrapperFramework["Potters Drive"], {
+        Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
+        CustomName = "Nitty", -- Name you want to be displayed
+        Color = Color3.fromRGB(92, 118, 150), -- Color
+        IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
+    })
+    ESP.whatever = true
 
--- object
-ESP:AddObjectListener(Workspace.TrapperFramework["Temple Estate"], {
-    Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
-    CustomName = "Nitty", -- Name you want to be displayed
-    Color = Color3.fromRGB(92, 118, 150), -- Color
-    IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
-})
-ESP.whatever = true
+workspace.TrapperFramework["Temple Estate"].ChildAdded:Connect(function(child)
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "SPAWNED", 
+        Text = child.Name
+    })
+end)
 
-ESP:AddObjectListener(Workspace.TrapperFramework["Graveside Estate"], {
-    Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
-    CustomName = "Nitty", -- Name you want to be displayed
-    Color = Color3.fromRGB(92, 118, 150), -- Color
-    IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
-})
-ESP.whatever = true
+workspace.TrapperFramework["Graveside Estate"].ChildAdded:Connect(function(child)
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "SPAWNED", 
+        Text = child.Name
+    })
+end)
 
-ESP:AddObjectListener(Workspace.TrapperFramework["Brickside Park"], {
-    Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
-    CustomName = "Nitty", -- Name you want to be displayed
-    Color = Color3.fromRGB(92, 118, 150), -- Color
-    IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
-})
-ESP.whatever = true
+workspace.TrapperFramework["Brickside Park"].ChildAdded:Connect(function(child)
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "SPAWNED", 
+        Text = child.Name
+    })
+end)
 
-ESP:AddObjectListener(Workspace.TrapperFramework["Brickham Estate"], {
-    Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
-    CustomName = "Nitty", -- Name you want to be displayed
-    Color = Color3.fromRGB(92, 118, 150), -- Color
-    IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
-})
-ESP.whatever = true
+workspace.TrapperFramework["Brickham Estate"].ChildAdded:Connect(function(child)
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "SPAWNED", 
+        Text = child.Name
+    })
+end)
 
-ESP:AddObjectListener(Workspace.TrapperFramework["Hillside Road"], {
-    Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
-    CustomName = "Nitty", -- Name you want to be displayed
-    Color = Color3.fromRGB(92, 118, 150), -- Color
-    IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
-})
-ESP.whatever = true
+workspace.TrapperFramework["Hillside Road"].ChildAdded:Connect(function(child)
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "SPAWNED", 
+        Text = child.Name
+    })
+end)
 
-ESP:AddObjectListener(Workspace.TrapperFramework["Juggin Alleys"], {
-    Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
-    CustomName = "Nitty", -- Name you want to be displayed
-    Color = Color3.fromRGB(92, 118, 150), -- Color
-    IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
-})
-ESP.whatever = true
+workspace.TrapperFramework["Juggin Alleys"].ChildAdded:Connect(function(child)
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "SPAWNED", 
+        Text = child.Name
+    })
+end)
 
-ESP:AddObjectListener(Workspace.TrapperFramework["Rosebury Square"], {
-    Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
-    CustomName = "Nitty", -- Name you want to be displayed
-    Color = Color3.fromRGB(92, 118, 150), -- Color
-    IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
-})
-ESP.whatever = true
+workspace.TrapperFramework["Rosebury Square"].ChildAdded:Connect(function(child)
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "SPAWNED", 
+        Text = child.Name
+    })
+end)
 
-ESP:AddObjectListener(Workspace.TrapperFramework["Juggin Road"], {
-    Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
-    CustomName = "Nitty", -- Name you want to be displayed
-    Color = Color3.fromRGB(92, 118, 150), -- Color
-    IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
-})
-ESP.whatever = true
+workspace.TrapperFramework["Juggin Road"].ChildAdded:Connect(function(child)
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "SPAWNED", 
+        Text = child.Name
+    })
+end)
 
-ESP:AddObjectListener(Workspace.TrapperFramework["Grow House"], {
-    Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
-    CustomName = "Nitty", -- Name you want to be displayed
-    Color = Color3.fromRGB(92, 118, 150), -- Color
-    IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
-})
-ESP.whatever = true
+workspace.TrapperFramework["Grow House"].ChildAdded:Connect(function(child)
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "SPAWNED", 
+        Text = child.Name
+    })
+end)
 
-ESP:AddObjectListener(Workspace.TrapperFramework["Shelldale Drive"], {
-    Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
-    CustomName = "Nitty", -- Name you want to be displayed
-    Color = Color3.fromRGB(92, 118, 150), -- Color
-    IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
-})
-ESP.whatever = true
+workspace.TrapperFramework["Shelldale Drive"].ChildAdded:Connect(function(child)
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "SPAWNED", 
+        Text = child.Name
+    })
+end)
 
-ESP:AddObjectListener(Workspace.TrapperFramework["Crasher Lane"], {
-    Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
-    CustomName = "Nitty", -- Name you want to be displayed
-    Color = Color3.fromRGB(92, 118, 150), -- Color
-    IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
-})
-ESP.whatever = true
+workspace.TrapperFramework["Crasher Lane"].ChildAdded:Connect(function(child)
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "SPAWNED", 
+        Text = child.Name
+    })
+end)
 
-ESP:AddObjectListener(Workspace.TrapperFramework["Longwood Underpass"], {
-    Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
-    CustomName = "Nitty", -- Name you want to be displayed
-    Color = Color3.fromRGB(92, 118, 150), -- Color
-    IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
-})
-ESP.whatever = true
+workspace.TrapperFramework["Longwood Underpass"].ChildAdded:Connect(function(child)
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "SPAWNED", 
+        Text = child.Name
+    })
+end)
 
-ESP:AddObjectListener(Workspace.TrapperFramework["the Grow House"], {
-    Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
-    CustomName = "Nitty", -- Name you want to be displayed
-    Color = Color3.fromRGB(92, 118, 150), -- Color
-    IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
-})
-ESP.whatever = true
+workspace.TrapperFramework["the Grow House"].ChildAdded:Connect(function(child)
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "SPAWNED", 
+        Text = child.Name
+    })
+end)
 
-ESP:AddObjectListener(Workspace.TrapperFramework["the Cemetary"], {
-    Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
-    CustomName = "Nitty", -- Name you want to be displayed
-    Color = Color3.fromRGB(92, 118, 150), -- Color
-    IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
-})
-ESP.whatever = true
+workspace.TrapperFramework["the Cemetary"].ChildAdded:Connect(function(child)
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "SPAWNED", 
+        Text = child.Name
+    })
+end)
 
-ESP:AddObjectListener(Workspace.TrapperFramework["Longwood Road"], {
-    Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
-    CustomName = "Nitty", -- Name you want to be displayed
-    Color = Color3.fromRGB(92, 118, 150), -- Color
-    IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
-})
-ESP.whatever = true
+workspace.TrapperFramework["Longwood Road"].ChildAdded:Connect(function(child)
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "SPAWNED", 
+        Text = child.Name
+    })
+end)
 
-ESP:AddObjectListener(Workspace.TrapperFramework["Brickston Station"], {
-    Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
-    CustomName = "Nitty", -- Name you want to be displayed
-    Color = Color3.fromRGB(92, 118, 150), -- Color
-    IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
-})
-ESP.whatever = true
+workspace.TrapperFramework["Brickston Station"].ChildAdded:Connect(function(child)
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "SPAWNED", 
+        Text = child.Name
+    })
+end)
 
-ESP:AddObjectListener(Workspace.TrapperFramework["Crescent Way"], {
-    Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
-    CustomName = "Nitty", -- Name you want to be displayed
-    Color = Color3.fromRGB(92, 118, 150), -- Color
-    IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
-})
-ESP.whatever = true
+workspace.TrapperFramework["Crescent Way"].ChildAdded:Connect(function(child)
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "SPAWNED", 
+        Text = child.Name
+    })
+end)
 
-ESP:AddObjectListener(Workspace.TrapperFramework["Farmbrick Parking Lot"], {
-    Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
-    CustomName = "Nitty", -- Name you want to be displayed
-    Color = Color3.fromRGB(92, 118, 150), -- Color
-    IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
-})
-ESP.whatever = true
+workspace.TrapperFramework["Farmbrick Parking Lot"].ChildAdded:Connect(function(child)
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "SPAWNED", 
+        Text = child.Name
+    })
+end)
 
-ESP:AddObjectListener(Workspace.TrapperFramework["Longwood Backstreets"], {
-    Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
-    CustomName = "Nitty", -- Name you want to be displayed
-    Color = Color3.fromRGB(92, 118, 150), -- Color
-    IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
-})
-ESP.whatever = true
+workspace.TrapperFramework["Longwood Backstreets"].ChildAdded:Connect(function(child)
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "SPAWNED", 
+        Text = child.Name
+    })
+end)
 
-ESP:AddObjectListener(Workspace.TrapperFramework["Potters Drive"], {
-    Name = "Nitty", --Object name inside of the path, for example: Workspace.ThisFolder.Item_1
-    CustomName = "Nitty", -- Name you want to be displayed
-    Color = Color3.fromRGB(92, 118, 150), -- Color
-    IsEnabled = "whatever" -- Any name, has to be the same as the last line: ESP.TheNameYouWant
-})
-ESP.whatever = true
+workspace.TrapperFramework["Potters Drive"].ChildAdded:Connect(function(child)
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "SPAWNED", 
+        Text = child.Name
+    })
+end)
